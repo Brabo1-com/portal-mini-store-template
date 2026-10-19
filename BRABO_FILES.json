@@ -35,8 +35,8 @@
       "size": 44188
     },
     "DEPENDENCIES.json": {
-      "sha256": "65669b48fd661f5e757941788932624f97fc34a3efd093432ff6a4dc34980ebe",
-      "size": 231859
+      "sha256": "c9455323d791fe5c83f2d7dc4287ef1671d84cd5fed4b78baba0a8330d91966c",
+      "size": 232998
     },
     "Dockerfile": {
       "sha256": "d865de67fb1bfc9b98cd181f63bffa3af853c8e0d1776a98858853caf8ac82eb",
@@ -47,8 +47,8 @@
       "size": 1080
     },
     "README.md": {
-      "sha256": "17849aa01f02aedbc0c813a769336a3d48828e32105f87454a58656e69969dfb",
-      "size": 6396
+      "sha256": "1662a98c20522ac3de1c1fa4b955b4978bf4d1257a0a425ba6c137dfbd4128d0",
+      "size": 6410
     },
     "THIRD_PARTY_NOTICES.md": {
       "sha256": "77eb65a92c1c608c10ef5f3e49ba9cf4c1c438389bb1e10ed7c8b3b16f5bbc1b",
@@ -71,12 +71,12 @@
       "size": 827
     },
     "package.json": {
-      "sha256": "76f68314ef2935dc6f6255af0f7e13a4acca9a2375d27148c568b87a5c4b3d0f",
-      "size": 3995
+      "sha256": "3b07be4d5ae8e1d55626c71b47b34c7a2e13016e90f81b72429605b3a1b32fc6",
+      "size": 3913
     },
     "pnpm-lock.yaml": {
-      "sha256": "ccc31ef527ecef307c9a6ef430e1f4f81b5577c152b55353fde3468adc5eb304",
-      "size": 365423
+      "sha256": "8ce56167a11705fb2fbd8f1eee0426687a4eefb8d5f7217bda0e8ef04d80e658",
+      "size": 365920
     },
     "postcss.config.mjs": {
       "sha256": "77589bffa8a00e6b730b98bda0c3514f6cc7f3b6423b00c1d36e181b123c46c1",
@@ -551,12 +551,16 @@
       "size": 2528
     },
     "BRABO_CHANGES.md": {
-      "sha256": "b98f3950c7188be71e85db1c04e407e609ce809cc1f3e98e96239f31c5413a99",
-      "size": 4248
+      "sha256": "7029b19866f38f1e0b75c8505ef57d8bb79cf572f159ff822a7d51375c3177c6",
+      "size": 4566
     },
     "public/brabo-template-preview.svg": {
       "sha256": "832738fbf7a522fa80efc44d609df8d50c5b4ce8c2b29c050227ddfeaaaa7f0a",
       "size": 1234
+    },
+    "pnpm-workspace.yaml": {
+      "sha256": "1c11717eff9d6efb1a987db63306c5bf155fb1497df082dd94dc54d5da163a3a",
+      "size": 165
     }
   },
   "changedFromUpstream": [
