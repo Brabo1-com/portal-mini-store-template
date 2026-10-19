@@ -523,8 +523,8 @@
       "size": 29
     },
     "vendor/nextjs-webpack-component-tagger/LICENSE": {
-      "sha256": "2a51957781fe0eab3e1f156791e5f4b662c5a1428764b5a2c51cac797a13e29a",
-      "size": 11345
+      "sha256": "c51bbbb79a605011f4d70df7ab27e2970f4f1aadab5026f27a4d169eeccdb91c",
+      "size": 11346
     },
     "vendor/nextjs-webpack-component-tagger/README.md": {
       "sha256": "cadc99ffc8da16bfb598ae74b1979c97408bd31452660dbd62daca0382ecba4d",
@@ -551,8 +551,8 @@
       "size": 2528
     },
     "BRABO_CHANGES.md": {
-      "sha256": "77d9e3832b6668623a190463e5302f8d4a8cf218e9f2072c1ba91e4e7f64916f",
-      "size": 4008
+      "sha256": "b98f3950c7188be71e85db1c04e407e609ce809cc1f3e98e96239f31c5413a99",
+      "size": 4248
     },
     "public/brabo-template-preview.svg": {
       "sha256": "832738fbf7a522fa80efc44d609df8d50c5b4ce8c2b29c050227ddfeaaaa7f0a",
