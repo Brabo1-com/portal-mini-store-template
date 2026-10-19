@@ -66,3 +66,5 @@ Content publication was explicitly authorized on 2026-10-19. Remaining: actual o
 ## Publication preparation — 2026-10-19
 
 Added `public/brabo-template-preview.svg`, an original Brabo card illustration under the included `LICENSES/Brabo-assets-MIT.txt`. Content publication to this template's brabo1-com repository is authorized. Local allowlist/hashes include the illustration and current authorization metadata. Upload and pinned public URLs remain unverified until a remote commit exists.
+
+Publicação pela interface do GitHub: o LICENSE do plugin recebeu somente uma quebra de linha final; texto e avisos preservados. DEPENDENCIES.json conserva o hash da distribuição original; BRABO_FILES.json registra os bytes publicados.
