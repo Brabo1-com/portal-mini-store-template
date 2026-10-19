@@ -1,0 +1,32 @@
+{
+  "version": "0.8.0",
+  "type": "module",
+  "license": "Apache-2.0",
+  "author": "Dyad",
+  "dependencies": {
+    "@babel/parser": "^7.23.0",
+    "estree-walker": "^2.0.2",
+    "magic-string": "^0.30.5"
+  },
+  "peerDependencies": {
+    "webpack": "^5.0.0"
+  },
+  "name": "@brabo/nextjs-webpack-component-tagger",
+  "private": true,
+  "main": "./lib/index.cjs",
+  "module": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "import": "./lib/index.js",
+      "require": "./lib/index.cjs"
+    }
+  },
+  "files": [
+    "lib",
+    "LICENSE",
+    "README.md"
+  ],
+  "braboModifications": "Distribution metadata and paths changed; runtime bytes unchanged from @dyad-sh/nextjs-webpack-component-tagger@0.8.0."
+}
