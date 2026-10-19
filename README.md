@@ -1,6 +1,6 @@
 # Brabo Portal Mini Store
 
-Prepared locally by Brabo on 2026-10-19 from the MIT-declared upstream snapshot. See LICENSE, THIRD_PARTY_NOTICES.md and BRABO_CHANGES.md. Use pnpm 10.11.0 with the committed pnpm-lock.yaml. The tagger is vendored locally; demo illustrations are served locally.
+Prepared locally by Brabo on 2026-10-19 from the MIT-declared upstream snapshot. See LICENSE, THIRD_PARTY_NOTICES.md and BRABO_CHANGES.md. Use pnpm 11.1.2 with the committed pnpm-lock.yaml. The tagger is vendored locally; demo illustrations are served locally.
 
 Copy .env.example to .env and configure your own PostgreSQL/Neon database, PAYLOAD_SECRET and optional Gmail app credentials. Never commit real credentials. Use a disposable database for validation; starting the development server can create/update its schema.
 
@@ -80,8 +80,8 @@ This template comes configured with the bare minimum to get started on anything 
 ## Getting Started
 
 ### Prerequisites
-- Node.js 18+ or 20+
-- pnpm 9+ or 10+
+- Node.js 24 (tested; minimum 22.16.0)
+- pnpm 11.1.2
 - PostgreSQL database (Vercel Postgres recommended)
 
 ### Installation
