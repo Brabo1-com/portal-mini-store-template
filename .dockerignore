@@ -1,0 +1,10 @@
+# Brabo distribution: exclude local secrets and generated files from build contexts.
+.git
+.env
+.env.*
+!.env.example
+node_modules
+.next
+media
+*.log
+*.tsbuildinfo

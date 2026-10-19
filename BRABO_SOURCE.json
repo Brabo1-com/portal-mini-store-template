@@ -1,0 +1,819 @@
+{
+  "repository": "dyad-sh/portal-mini-store-template",
+  "commit": "05e29f6b18d386d1690b37595800304d679a2274",
+  "preparedAt": "2026-10-19",
+  "publicationAuthorized": true,
+  "upstreamFiles": [
+    {
+      "path": ".env.example",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/.env.example",
+      "gitBlob": "d77c44b03de246aa5eb65334081c0256626001a0",
+      "sha256": "350674c1d65b974151d62769009d17b8a25e620b2554c0bd1a7660ea28b74692",
+      "size": 50
+    },
+    {
+      "path": ".gitignore",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/.gitignore",
+      "gitBlob": "3d53a40bcb8cf96b7b9c999968f56fa8f2742267",
+      "sha256": "8f6d80c64042bc6438e576440253f54a2a3aaab6fdee1f11d0ab5300c1ad4ea7",
+      "size": 441
+    },
+    {
+      "path": ".npmrc",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/.npmrc",
+      "gitBlob": "e9ee3cb4d04a562d5bf82c635e11ec2569f108aa",
+      "sha256": "57739718c1255e6634faf8b05862c4464c4c81463cddc4c5a1a25037ebdbd6da",
+      "size": 21
+    },
+    {
+      "path": ".prettierrc.json",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/.prettierrc.json",
+      "gitBlob": "cb8ee2671dfc3053804108ceef6bb9e5856f09c6",
+      "sha256": "427b8ce36f41215bf9a20fb074e941a373bea70d11abd985dcfd906fcf8928ce",
+      "size": 90
+    },
+    {
+      "path": ".vscode/extensions.json",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/.vscode/extensions.json",
+      "gitBlob": "1d7ac851ea8aba2b36bfca0c7969beec7547f691",
+      "sha256": "a07813a3b3f08e92237ae94fe8ae123d3609eb210141032cc329e586f41056ae",
+      "size": 78
+    },
+    {
+      "path": ".vscode/launch.json",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/.vscode/launch.json",
+      "gitBlob": "572ee15f7fd4abe07ce72442818243655fad9438",
+      "sha256": "41e5dcc1cc1de77847cdb1b18805b316456b074e08941b004531f25e387ececd",
+      "size": 758
+    },
+    {
+      "path": ".vscode/settings.json",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/.vscode/settings.json",
+      "gitBlob": "5918b307925eee7643d2390fa239a4f5ec3a2712",
+      "sha256": "6fc379e33116c2ddb6c2454c3d26c96b8f77af4c090829f0e593fadcf8f98b17",
+      "size": 1124
+    },
+    {
+      "path": ".yarnrc",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/.yarnrc",
+      "gitBlob": "5e7a4dd335c62951941c1821ffe5851c06ac5b6e",
+      "sha256": "65bf6758802e723eb5bae1569af37946c661d034b663c29c05a858a7f6519bee",
+      "size": 30
+    },
+    {
+      "path": "AI_RULES.md",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/AI_RULES.md",
+      "gitBlob": "1e681d0a3c4e6b223e74acebbd0d1339cc150f61",
+      "sha256": "3e00481fd7fa52a24dbdd6a1ef48774e8649498182412cdeb6b76a49823f78c4",
+      "size": 4610
+    },
+    {
+      "path": "Dockerfile",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/Dockerfile",
+      "gitBlob": "93465cfa57acc80ceb1825f482ece476f6f8b5fe",
+      "sha256": "30259cca095603715721d28c5dc00fd04abb6e91c2f59983202e670e551cb388",
+      "size": 2444
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/README.md",
+      "gitBlob": "9dfc193fdbb10d571563578bed7e4257a7bc461a",
+      "sha256": "be1c662ca94852747801e8a3deae9ad9ffd45e8dfd72f58e3b50f707f5b3ce55",
+      "size": 5795
+    },
+    {
+      "path": "components.json",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/components.json",
+      "gitBlob": "ffe928f5b6dfe484f57a5fd47d0487f21e164fa3",
+      "sha256": "b8be06c49cf44d97a973a6f7ad38a6bc78ab04f78a2614d407738de9aa900983",
+      "size": 430
+    },
+    {
+      "path": "docker-compose.yml",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/docker-compose.yml",
+      "gitBlob": "3aba7cc7e2a9a602a8bef3e05d4dbab34b7825d4",
+      "sha256": "88f967a82e689ad6e5ef9067a16646d9a5c67804b632d87918006b1dd7f5aaaa",
+      "size": 915
+    },
+    {
+      "path": "eslint.config.mjs",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/eslint.config.mjs",
+      "gitBlob": "7acd77dd1b387a90851ec8a71c1626ab08783d44",
+      "sha256": "1db52bc6ed1d9c668cabe41bcd270bbed516c862c542ea783c220ce39c480144",
+      "size": 959
+    },
+    {
+      "path": "next.config.ts",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/next.config.ts",
+      "gitBlob": "66d3c134577f0ffc22fa9856010327efb085256f",
+      "sha256": "50c044234a3e9ca57656bc11f20330df58dacf60b9c7790679520f5703d8678a",
+      "size": 656
+    },
+    {
+      "path": "package.json",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/package.json",
+      "gitBlob": "90d631ed30acc431c5f13f1b58fff0750824b7f9",
+      "sha256": "f41a75ff424c05582b0f574126ce9a90c00000cb5b933270427a72b6ca17e53e",
+      "size": 3687
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/pnpm-lock.yaml",
+      "gitBlob": "3415dba948b55f73b7ce1589c208871c0aa9bb08",
+      "sha256": "ff47b08861597b7eced58856d265e6d864e71891c8ef7af6beb87c33f2116f3a",
+      "size": 363206
+    },
+    {
+      "path": "postcss.config.mjs",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/postcss.config.mjs",
+      "gitBlob": "317d71ccb78d14ab21ae58546bafae6870f625fd",
+      "sha256": "77589bffa8a00e6b730b98bda0c3514f6cc7f3b6423b00c1d36e181b123c46c1",
+      "size": 91
+    },
+    {
+      "path": "src/app/(frontend)/admin-dashboard/order-status-update.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/app/%28frontend%29/admin-dashboard/order-status-update.tsx",
+      "gitBlob": "d4f7e10e32fa692a3d4bfff7c4efda1fb65039d7",
+      "sha256": "eb43d9c5627dc39f2413e449901332f21040d749663f8d5c2d5170ee6464b464",
+      "size": 2506
+    },
+    {
+      "path": "src/app/(frontend)/admin-dashboard/page.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/app/%28frontend%29/admin-dashboard/page.tsx",
+      "gitBlob": "c6b9bf7fcf5ae45db918fdf33b5812ec5b71c8d1",
+      "sha256": "e9e0e2fed90075a1f7d1e3943d11cc784ff7211f35a5221111bf0a6b1c744f27",
+      "size": 7763
+    },
+    {
+      "path": "src/app/(frontend)/checkout/checkout-form.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/app/%28frontend%29/checkout/checkout-form.tsx",
+      "gitBlob": "f500d792f0c9bbad57f3720bc85410d43b6ad2c7",
+      "sha256": "dd831a6013aa5a518f967dfeff04a2ee14c0a8e11549fb6768e5215075772fef",
+      "size": 4355
+    },
+    {
+      "path": "src/app/(frontend)/checkout/page.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/app/%28frontend%29/checkout/page.tsx",
+      "gitBlob": "e88e0a2955227d79cd29c6ee150ffad379476165",
+      "sha256": "859bbfd971b125e83f6900cae89cdb44def1a08ed514dcda28ce5eabf876cd66",
+      "size": 1284
+    },
+    {
+      "path": "src/app/(frontend)/forgot-password/page.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/app/%28frontend%29/forgot-password/page.tsx",
+      "gitBlob": "305d36921c8d2249bf1179a98bd6eb6bf73f0348",
+      "sha256": "9f98707e0abbdf9075e88d9a998067a55b138c16888ee7b80432661b9603f8bd",
+      "size": 4802
+    },
+    {
+      "path": "src/app/(frontend)/layout.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/app/%28frontend%29/layout.tsx",
+      "gitBlob": "6bcb424c9eca27aff3102e5af8b5d1a42437ae56",
+      "sha256": "a602981119df84c602b2cb5545dde771eb054b150060d51b3f42b9058585085b",
+      "size": 596
+    },
+    {
+      "path": "src/app/(frontend)/login/page.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/app/%28frontend%29/login/page.tsx",
+      "gitBlob": "730b1059a3427267f07e73ef9a0cedac1cd2369e",
+      "sha256": "d44485816396d61f02500d7582f7117a0e10aef03e2170d41015b3f1f7f2e89e",
+      "size": 5295
+    },
+    {
+      "path": "src/app/(frontend)/my-orders/page.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/app/%28frontend%29/my-orders/page.tsx",
+      "gitBlob": "e4c397889b4aa88e687ff8c46a53eed9b97d3f04",
+      "sha256": "3e2e2cdf1693027a01b7c5b406d5a6856287c54276ec8f548b5c6eaa90d36df3",
+      "size": 5024
+    },
+    {
+      "path": "src/app/(frontend)/next/seed/route.ts",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/app/%28frontend%29/next/seed/route.ts",
+      "gitBlob": "6593799cb10a99290d1640096f5afe5dc43ff642",
+      "sha256": "430792df69ba7eeee085d95a6e59f26cb4db1aac9126ebbf8e6aa87e64456ef7",
+      "size": 1170
+    },
+    {
+      "path": "src/app/(frontend)/order/[id]/order-form.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/app/%28frontend%29/order/%5Bid%5D/order-form.tsx",
+      "gitBlob": "6007e3095f92140e0a312b13858fa8c9d6981fe1",
+      "sha256": "1bdbda64fcc09d78436e38472517d633483fbe904e4ca29fa1b4081a517bc4ad",
+      "size": 2964
+    },
+    {
+      "path": "src/app/(frontend)/order/[id]/page.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/app/%28frontend%29/order/%5Bid%5D/page.tsx",
+      "gitBlob": "9fdc5ac994df2eaa57d0ba05f2cbd978facb2e2a",
+      "sha256": "0730b2af7802940b49bc2070518743057285c0a4f6168d97a817d570ba74d0d3",
+      "size": 3237
+    },
+    {
+      "path": "src/app/(frontend)/page.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/app/%28frontend%29/page.tsx",
+      "gitBlob": "1852e2d1827373abb36ffd1d7145a2811f094796",
+      "sha256": "52e1311036b675428fc92c26386e2968d2e5f63c7227205334f1cca069ddcb22",
+      "size": 15580
+    },
+    {
+      "path": "src/app/(frontend)/register/page.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/app/%28frontend%29/register/page.tsx",
+      "gitBlob": "7524995997ebe5c1d4e3a056fb39f0577e4b2d3a",
+      "sha256": "77afd27bec55398b01de77cdeee4155b037b037d38019d153588773db6709475",
+      "size": 6767
+    },
+    {
+      "path": "src/app/(frontend)/reset-password/page.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/app/%28frontend%29/reset-password/page.tsx",
+      "gitBlob": "7233c4bf35684cad5c3c2e3998cb7dfb214531e2",
+      "sha256": "f9781a585c0c9c0893e6a35ac1826359eed10714b8b7dacfed69a3636e8c17af",
+      "size": 6245
+    },
+    {
+      "path": "src/app/(frontend)/snack/[id]/page.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/app/%28frontend%29/snack/%5Bid%5D/page.tsx",
+      "gitBlob": "2af1fd241f475fbcf5ade3aeae15639ab50fd613",
+      "sha256": "1f88f8a565c31b3837804753c68f496de6de5be811a533b0b4553c9c7003aaa7",
+      "size": 2945
+    },
+    {
+      "path": "src/app/(payload)/admin/[[...segments]]/not-found.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/app/%28payload%29/admin/%5B%5B...segments%5D%5D/not-found.tsx",
+      "gitBlob": "64108365fd93c489ee4e0fe470149fbbd0fe97dc",
+      "sha256": "b9ff5a8463c6f7539ef153eca16142d524a64342705b47455a76d18086c1bb2c",
+      "size": 731
+    },
+    {
+      "path": "src/app/(payload)/admin/[[...segments]]/page.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/app/%28payload%29/admin/%5B%5B...segments%5D%5D/page.tsx",
+      "gitBlob": "0de685cd62bc11f8bdac9a4c9ab5d6c6512ce040",
+      "sha256": "e56fa76badce3d4fbe5494e9763a5f7131e33347f42f534f235d765a8731050f",
+      "size": 715
+    },
+    {
+      "path": "src/app/(payload)/admin/importMap.js",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/app/%28payload%29/admin/importMap.js",
+      "gitBlob": "02c49fb00686cecc2c86708e80b0a1bdf636dc28",
+      "sha256": "e7aa57cffb058f687118254cc4dd2d8fdbba55e50a035bec3e1d2bb0fa9c2e74",
+      "size": 214
+    },
+    {
+      "path": "src/app/(payload)/api/[...slug]/route.ts",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/app/%28payload%29/api/%5B...slug%5D/route.ts",
+      "gitBlob": "e58c50f50cade6ac8c5c1ce655ac82057a2d8158",
+      "sha256": "6dd4f6e5db2cc81be16bdea5ee47344c1a9379413691da0a442c361c93af2ac6",
+      "size": 550
+    },
+    {
+      "path": "src/app/(payload)/api/graphql-playground/route.ts",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/app/%28payload%29/api/graphql-playground/route.ts",
+      "gitBlob": "17d2954ca2d252da6bc2067556593bec90809f7f",
+      "sha256": "ac94c71833e8ec1310fe08f4354ffda33fa2abad01cea59acf245313225cced5",
+      "size": 305
+    },
+    {
+      "path": "src/app/(payload)/api/graphql/route.ts",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/app/%28payload%29/api/graphql/route.ts",
+      "gitBlob": "2069ff86b0aafd09869166fd118fe23868325c98",
+      "sha256": "7d02d6088f7462fd16a05790e85320d6b0c8773f9b656dc107feb0172f8f7c8b",
+      "size": 315
+    },
+    {
+      "path": "src/app/(payload)/custom.scss",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/app/%28payload%29/custom.scss",
+      "gitBlob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "src/app/(payload)/layout.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/app/%28payload%29/layout.tsx",
+      "gitBlob": "8df141aeb2b24c724bd389b53ade6ceb98451751",
+      "sha256": "33f6c19beba36e51d33b597ce07ccc59c5b6a9da971e9d6a36258013077269af",
+      "size": 810
+    },
+    {
+      "path": "src/app/api/orders/route.ts",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/app/api/orders/route.ts",
+      "gitBlob": "3b5916c14a644089a7d5c5247078515315840713",
+      "sha256": "b0c2a166f0a30b9f883e0b98fdf831e1d82db109af0e86fea5613625ae8dfa88",
+      "size": 2955
+    },
+    {
+      "path": "src/app/api/orders/update-status/route.ts",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/app/api/orders/update-status/route.ts",
+      "gitBlob": "72cf7983fc69233ad7afcbb11a1ac97325c58e48",
+      "sha256": "6d5ed2cc80727e039fb24a1464689cf0a272e7f517be4fc9881f8df337485430",
+      "size": 1335
+    },
+    {
+      "path": "src/app/api/users/forgot-password/route.ts",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/app/api/users/forgot-password/route.ts",
+      "gitBlob": "1d55cf9c3c1fb1eaa59818e43b372fdba7a465ce",
+      "sha256": "504b874e4fdcfccc16d83406d0ee3f27140eed4770cb9ce5d6dec0228f396b97",
+      "size": 1187
+    },
+    {
+      "path": "src/app/globals.css",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/app/globals.css",
+      "gitBlob": "8252242c5f948ca64c402b43fcab0d53f0fbddf1",
+      "sha256": "9be45d5c37374bd9711010debfabe0222ef619fa138b277b129b8c2d3c56ca11",
+      "size": 4729
+    },
+    {
+      "path": "src/app/my-route/route.ts",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/app/my-route/route.ts",
+      "gitBlob": "075588617e7ea3c006293896f2a55cc9bf385441",
+      "sha256": "bbb6ca3bc998a2c2d778896c905d664cc40d0600dd29c4520cdfba3197ec7768",
+      "size": 287
+    },
+    {
+      "path": "src/collections/Media.ts",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/collections/Media.ts",
+      "gitBlob": "b35846585a49210d98870888d71980e280cca7e6",
+      "sha256": "77512e7d4e0be799bc96c77122231b34bbe13741909119a9c4e390240d1359c2",
+      "size": 388
+    },
+    {
+      "path": "src/collections/Orders.ts",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/collections/Orders.ts",
+      "gitBlob": "60c8c3a328a876a4beaeb6da3df4bd5de2d4d9e6",
+      "sha256": "adf45fde995d9c2d6150d506f5b2eb7ea02f78845f845d1d00f71f6486a2b9f0",
+      "size": 1542
+    },
+    {
+      "path": "src/collections/Snacks.ts",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/collections/Snacks.ts",
+      "gitBlob": "7c02081bdf5902771ae0395e6ba24459aa3dd1e8",
+      "sha256": "b6380b497c44885a589842851f60a1a5120800a6273d1ce74ed244a358d98ba1",
+      "size": 1454
+    },
+    {
+      "path": "src/collections/Users.ts",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/collections/Users.ts",
+      "gitBlob": "5a8e8f5d924a14439015121dbc700f918cacacee",
+      "sha256": "9c885a5c9b86c11639e5e915ea3500585beedb63241d1b9a54e65782d99024fc",
+      "size": 1823
+    },
+    {
+      "path": "src/collections/access/index.ts",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/collections/access/index.ts",
+      "gitBlob": "101f094dc372ad8e7b6e94751e27e2894ae3f419",
+      "sha256": "a3ac629ebaba6d3c594bc2ad7ce2952082c535dc55337797b83c39676196a99b",
+      "size": 1138
+    },
+    {
+      "path": "src/components/add-to-cart-button.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/add-to-cart-button.tsx",
+      "gitBlob": "29f631a0c74542684b602f779527b22a6db93417",
+      "sha256": "ae09335aeeebdb2228392d25c8ce7c1fb9445732c37483c7034aa3662eaa15dd",
+      "size": 1349
+    },
+    {
+      "path": "src/components/before-dashboard/index.scss",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/before-dashboard/index.scss",
+      "gitBlob": "7169b4f620e5e0bc0c5053860016003b0b0873b3",
+      "sha256": "4d95988189eca54d45afe688b31da612d5b8c6f3787fc92abe3172750ff8991c",
+      "size": 302
+    },
+    {
+      "path": "src/components/before-dashboard/index.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/before-dashboard/index.tsx",
+      "gitBlob": "99ddcf53e06d7978d75166b632a54055095a1ff7",
+      "sha256": "8fb48a3dc82c8f8209a698bf72c15b8d65a1c9acae389212f7e28d5c59163fc1",
+      "size": 510
+    },
+    {
+      "path": "src/components/before-dashboard/seed-button.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/before-dashboard/seed-button.tsx",
+      "gitBlob": "87abdf8296f5331ac87672e18fd0966c497cc19f",
+      "sha256": "9f8ccd2fb0b27d1f6e616257f6caf1d3bc5c8a960651c1554cbebd7fdf7e62f3",
+      "size": 2208
+    },
+    {
+      "path": "src/components/cart-button.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/cart-button.tsx",
+      "gitBlob": "5434ce6b6f3423e7884c6f73a4baed37b8234663",
+      "sha256": "1b37f8c750eea05ec185ccfbca74c2997f2cc03a00fe65e04a1c68a489077d69",
+      "size": 737
+    },
+    {
+      "path": "src/components/cart-sidebar.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/cart-sidebar.tsx",
+      "gitBlob": "20eae39a3dd4835cbcca819e3fcfe44b8a9e3eec",
+      "sha256": "9e27194cded552e0a09f419510f16fe8157cd0057ee4ac0a46c4c391dd81218d",
+      "size": 9320
+    },
+    {
+      "path": "src/components/logout-button.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/logout-button.tsx",
+      "gitBlob": "c52933ceca0eb81a8468de01f893444f37c4c37f",
+      "sha256": "1998478e8fece594c60db92a35ec4ed9ce278274bf78219086dd6d99556d0550",
+      "size": 746
+    },
+    {
+      "path": "src/components/site-header.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/site-header.tsx",
+      "gitBlob": "04362c60f7291e2178fa435526f8f1956bba77f3",
+      "sha256": "4040d6c1f58566e8357f50389a0ba20d9e54417d8e3b0dbb4c84221840186358",
+      "size": 3096
+    },
+    {
+      "path": "src/components/ui/accordion.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/accordion.tsx",
+      "gitBlob": "4a8cca46b9c10394f5710a35892b36407ee70fc4",
+      "sha256": "7251e973cc6896411e3348c1e9cd10bb359934b0e766055c9a3439b07b775edc",
+      "size": 2053
+    },
+    {
+      "path": "src/components/ui/alert-dialog.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/alert-dialog.tsx",
+      "gitBlob": "0863e40d92fe36ed1dd34d3a555f4947eff03af4",
+      "sha256": "59967c334f56dd44100e49b1fc18db428e7f15f5a28b9c2c4f9a3b7dcb4db4b7",
+      "size": 3864
+    },
+    {
+      "path": "src/components/ui/alert.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/alert.tsx",
+      "gitBlob": "14213546e5ac051dd33c8359f261f9f76051d66f",
+      "sha256": "49d8311589b810b106aada8ef7b13f70b2b1f68cfce4e1458b7f31a191f420e9",
+      "size": 1614
+    },
+    {
+      "path": "src/components/ui/aspect-ratio.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/aspect-ratio.tsx",
+      "gitBlob": "3df3fd02a6a30b60b6e1474664065b0d3437bf48",
+      "sha256": "6a75117416aa89200cf31e8d61643b428e812f479caea857c80004b26d893e79",
+      "size": 280
+    },
+    {
+      "path": "src/components/ui/avatar.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/avatar.tsx",
+      "gitBlob": "71e428b4ca6154811e8f569d5fdd971ead095996",
+      "sha256": "e8672934f1c315f36cdae39380454ba8c2da62aca420dfb827d96693091419c4",
+      "size": 1097
+    },
+    {
+      "path": "src/components/ui/badge.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/badge.tsx",
+      "gitBlob": "02054139a9a72f2ce2c4defd14861b4129312950",
+      "sha256": "f41c11fc13e9a1f1b849349cb51b137ddd27de0a17c5339675c789d58f556cc4",
+      "size": 1631
+    },
+    {
+      "path": "src/components/ui/breadcrumb.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/breadcrumb.tsx",
+      "gitBlob": "eb88f32122082ae2dac61dd033939459215347f4",
+      "sha256": "22f3f4c13ed1085c4131379bfccc6fb173a474f861636bc2736506820153aa08",
+      "size": 2357
+    },
+    {
+      "path": "src/components/ui/button.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/button.tsx",
+      "gitBlob": "a2df8dce675fed0712d021fa45245289ecd26c88",
+      "sha256": "82403231e33fd3d45b111e5e819df194cdfa7cef9a726770185724a60bd20932",
+      "size": 2123
+    },
+    {
+      "path": "src/components/ui/calendar.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/calendar.tsx",
+      "gitBlob": "1d98dcb7cec07015985ba93bb984582c7a1b26c3",
+      "sha256": "e710d46791041cd910b6715925f1d227797414abc7bcf1afc0b0e8ecf691ebca",
+      "size": 7619
+    },
+    {
+      "path": "src/components/ui/card.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/card.tsx",
+      "gitBlob": "d05bbc6c74cd8dbc699562cef917bb4267865aed",
+      "sha256": "78cdb63dff3ec7ef074ada630ff20a5d8004768b6cbe24ed134a8bfba12bafbb",
+      "size": 1989
+    },
+    {
+      "path": "src/components/ui/carousel.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/carousel.tsx",
+      "gitBlob": "0e05a77ea155fde6af5d9a4848b1d3953df6ea5a",
+      "sha256": "b7ea0dda3903d972c186f739e23da61f547bc83b5a0bf13b16856577846d5fc3",
+      "size": 5556
+    },
+    {
+      "path": "src/components/ui/chart.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/chart.tsx",
+      "gitBlob": "97cc2807f6d74ca79a5dc61f76c7796d9de19930",
+      "sha256": "670849399b33fecf7e46aa222c52f6a7c294faac079f5227f8c01c594822fd5d",
+      "size": 9781
+    },
+    {
+      "path": "src/components/ui/checkbox.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/checkbox.tsx",
+      "gitBlob": "fa0e4b59fa859bf5bdf1f3f4d24f1e71926f481f",
+      "sha256": "4c395ef15549e46068eb3b32a2a10fb5bfdb01f6834a3c0231a218a529015c83",
+      "size": 1226
+    },
+    {
+      "path": "src/components/ui/collapsible.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/collapsible.tsx",
+      "gitBlob": "ae9fad04a3716b5d6f6c957b75841737eb8ed7a8",
+      "sha256": "c2c74dc3e99482d00a57de673b56920860c2ff4b330373d783843f505dc11dae",
+      "size": 800
+    },
+    {
+      "path": "src/components/ui/command.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/command.tsx",
+      "gitBlob": "8cb4ca7a583da481866f41692bb50ba7cfba709d",
+      "sha256": "4fb4f8f95dfbe884ae598661b80e541d62eacdfe2101beab58819ab58b96c2ea",
+      "size": 4818
+    },
+    {
+      "path": "src/components/ui/context-menu.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/context-menu.tsx",
+      "gitBlob": "e29ad05f96a328c7c6eca4641e550ff748805fa0",
+      "sha256": "6573f8ed4232ae9801a3098a5cd4549b43a1e0ac1fd2c495e552a862d81fba22",
+      "size": 8222
+    },
+    {
+      "path": "src/components/ui/dialog.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/dialog.tsx",
+      "gitBlob": "d9ccec91d22fab844bd04340c2b07e8677955350",
+      "sha256": "491a87bfae8f28773624d353bf56b9288d0852413e814d508e0d086dc7b06edb",
+      "size": 3982
+    },
+    {
+      "path": "src/components/ui/drawer.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/drawer.tsx",
+      "gitBlob": "8aa69230a087be1fb8efe2067d1cf793de87acd4",
+      "sha256": "0c9464ed4f95207ff6ec0b8f433f550388ea0fe57fecd36bbe100b084ee46a3e",
+      "size": 4255
+    },
+    {
+      "path": "src/components/ui/dropdown-menu.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/dropdown-menu.tsx",
+      "gitBlob": "ec51e9cc9f824a0b067d4a66a37caa63bbdce5f5",
+      "sha256": "9b346378821ba06f9501e4571fd7678cd8819d6833f833daff72bec699565c06",
+      "size": 8284
+    },
+    {
+      "path": "src/components/ui/form.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/form.tsx",
+      "gitBlob": "524b986b3ceea3e50204597e5ad38d04f93ffb5d",
+      "sha256": "b41b4b10f5e11b2acc1accb7b027eba0581b5cdd549d3ccef92e30d1f4efcf54",
+      "size": 3759
+    },
+    {
+      "path": "src/components/ui/hover-card.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/hover-card.tsx",
+      "gitBlob": "e7541864c7dee7bf024ad96e7b6d0234e0b49f8b",
+      "sha256": "031f6a309d87c8e42a2282fccc277dde75e373de8c93dad881582c9dc13e05d0",
+      "size": 1532
+    },
+    {
+      "path": "src/components/ui/input-otp.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/input-otp.tsx",
+      "gitBlob": "614f70e383bf47886ddb3d71581ccd27c8b5739d",
+      "sha256": "35d561c352fde4e34fc3481839649728300c01cfadac62aa84c375d6d812f4de",
+      "size": 2254
+    },
+    {
+      "path": "src/components/ui/input.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/input.tsx",
+      "gitBlob": "03295ca6ac617de95b78b09e5e3a6de897a204f0",
+      "sha256": "6628e8fde207857b9ba08910d386eeea8213d7d745b4e0ae8b95332b52730db9",
+      "size": 967
+    },
+    {
+      "path": "src/components/ui/label.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/label.tsx",
+      "gitBlob": "fb5fbc3eee891a5c118bb00fd153273c16959c9e",
+      "sha256": "9ec42c8a57e82311118b794318409ee02b2cebfa49ba6cce8457cff6448cd471",
+      "size": 611
+    },
+    {
+      "path": "src/components/ui/menubar.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/menubar.tsx",
+      "gitBlob": "8480f0aac115338b73311343a80062c77476bf2f",
+      "sha256": "d3c5b6060323b78aef1b32650e22d3d951d1b125404f76ffb967ed80446a3ddd",
+      "size": 8394
+    },
+    {
+      "path": "src/components/ui/navigation-menu.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/navigation-menu.tsx",
+      "gitBlob": "1199945c49485cc3fb9f86c0372ac550fe01cce5",
+      "sha256": "d71f57fe0f365541fbf5d00196b0b78a461d8c4f38d35293e5754680d93b9245",
+      "size": 6664
+    },
+    {
+      "path": "src/components/ui/pagination.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/pagination.tsx",
+      "gitBlob": "0d185410e7bbf2a1326d7af4b55f1b4b8e14d16a",
+      "sha256": "53ffa0474d07dbfe1fb67f043a0ad7e7d24feecf950e65da8b929a90179c6ad4",
+      "size": 2712
+    },
+    {
+      "path": "src/components/ui/popover.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/popover.tsx",
+      "gitBlob": "01e468b6783992d04775aa52376221b8fa4b0f95",
+      "sha256": "29a217781737bbf5c430859b3de46097a44ada81c4143c2d05543d2167de0ee1",
+      "size": 1635
+    },
+    {
+      "path": "src/components/ui/progress.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/progress.tsx",
+      "gitBlob": "e7a416c375109c29e844f0ecee7e0645a03ec301",
+      "sha256": "e7a89220fb49e18d6613956781cfd5eb38d5da36379e93f5fc90ccec127dc871",
+      "size": 740
+    },
+    {
+      "path": "src/components/ui/radio-group.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/radio-group.tsx",
+      "gitBlob": "5e6778cb48d88b52f09ef333e1dd5df7c30f72d2",
+      "sha256": "b12ca5cef859dd75b274337234bae66e413b0f97845243254a1dedcb2d7a7237",
+      "size": 1466
+    },
+    {
+      "path": "src/components/ui/resizable.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/resizable.tsx",
+      "gitBlob": "12bbd0b8b04e6ec83bde5b9fa8a3e29a166581da",
+      "sha256": "41043c0f3dec3a41e163fcfbba4ed8138eeafcedd1aa40c007c3e195f34d37df",
+      "size": 2028
+    },
+    {
+      "path": "src/components/ui/scroll-area.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/scroll-area.tsx",
+      "gitBlob": "8e4fa13f668a62de3a4b8eaebf23eba1b0421e7d",
+      "sha256": "1c5d0b242d0513848f4bfa9b57ba7f438d9b1120617029941bfaa137196ecead",
+      "size": 1645
+    },
+    {
+      "path": "src/components/ui/select.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/select.tsx",
+      "gitBlob": "dcbbc0ca0c781dfa6d2fe4ee6f1c9c2cad905a9b",
+      "sha256": "8795c9fac7c48d565ff6c47cbf4cca8bfefe25d8cb3d7e7aeba36855739a76ab",
+      "size": 6253
+    },
+    {
+      "path": "src/components/ui/separator.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/separator.tsx",
+      "gitBlob": "275381cab0adbc778ea634e7c46fbf80db821bf3",
+      "sha256": "e9dddbd8dbbc0eccd683306481b0f0bbc8e2b60ea97817416ebb9fe7fbbbdca8",
+      "size": 699
+    },
+    {
+      "path": "src/components/ui/sheet.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/sheet.tsx",
+      "gitBlob": "84649ad0ffd80bdd74dac8bcced074cf63e43233",
+      "sha256": "3d6a560c635fd91094e43191ecf73b124ccb2537e6060f85d5d31fcf68150e74",
+      "size": 4090
+    },
+    {
+      "path": "src/components/ui/sidebar.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/sidebar.tsx",
+      "gitBlob": "1ee5a457ea2b67b750e93d6be8311c7645a5cc6f",
+      "sha256": "73561977bb06800b7d7700d844e4219b8dc4d14ac732c7a448e807005286d9f7",
+      "size": 21633
+    },
+    {
+      "path": "src/components/ui/skeleton.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/skeleton.tsx",
+      "gitBlob": "32ea0ef7fb4d4f7cb0affa7a3b329533b5f2af23",
+      "sha256": "f2aea81d8baf2b621945382aabac150e3db40f20d19ac1abea7aff805f1dc33c",
+      "size": 276
+    },
+    {
+      "path": "src/components/ui/slider.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/slider.tsx",
+      "gitBlob": "09391e86b31eb47649e419a28b6ccf20e80aa4ef",
+      "sha256": "55140ef92c201c82d530dede076603611fbfb2cdc899e4d8459b58f6cbb2b235",
+      "size": 2001
+    },
+    {
+      "path": "src/components/ui/sonner.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/sonner.tsx",
+      "gitBlob": "957524edbd237ae3dce705e8f916f4d6ee2dbdd0",
+      "sha256": "958d33cd8a85293728acad21c1f3881da56b805bc11a3ec862d6aa355c152d90",
+      "size": 564
+    },
+    {
+      "path": "src/components/ui/switch.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/switch.tsx",
+      "gitBlob": "6a2b5241d8c0b3df98dec769e9999df4978975bf",
+      "sha256": "17f2390d98e8ce4d9e90155eac1918266914d6a9ada7c276b5d1c917cef0e969",
+      "size": 1177
+    },
+    {
+      "path": "src/components/ui/table.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/table.tsx",
+      "gitBlob": "51b74dd52570a0268d78870be270dd460cef41db",
+      "sha256": "7b8c7a952cf49e78aafe5f628c3bd90f7e01bd5602eb5d3650bef5727a8186d7",
+      "size": 2448
+    },
+    {
+      "path": "src/components/ui/tabs.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/tabs.tsx",
+      "gitBlob": "497ba5ea34247f6843e0c58ccd7da61b7c8edb46",
+      "sha256": "e8469e599381cf021ce751c27cca3d8cb06440a45665ca9c2ef2efb0acef1fd9",
+      "size": 1969
+    },
+    {
+      "path": "src/components/ui/textarea.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/textarea.tsx",
+      "gitBlob": "7f21b5e78a4c1c23bf41b6be206f3f81dc84fe99",
+      "sha256": "de4e9fb0fd8e8ed10ea2e475ffe202a922ffe77e3f3edb2c517b0781447ad1b4",
+      "size": 759
+    },
+    {
+      "path": "src/components/ui/toggle-group.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/toggle-group.tsx",
+      "gitBlob": "5eed401b6c9c19f7b6f88e90d3cbe38783ef198b",
+      "sha256": "09eebce0dcbac76f860d4b6df5261c4f385f5ba233f88a0cd8dde91b1772abeb",
+      "size": 1925
+    },
+    {
+      "path": "src/components/ui/toggle.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/toggle.tsx",
+      "gitBlob": "94ec8f589b345a8c33b165463dfda393c7255967",
+      "sha256": "b201563ea8cdef3680a3d9bf272cfc5918a5ab6e1079d7ff8d6273df7fce2849",
+      "size": 1570
+    },
+    {
+      "path": "src/components/ui/tooltip.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/components/ui/tooltip.tsx",
+      "gitBlob": "4ee26b38a595862a5a082013d564d1ccf8452a7c",
+      "sha256": "8d8a3645f547334b759341daf94a20b12a8ba17e8de4ad6e4e1c64b38842c1e3",
+      "size": 1891
+    },
+    {
+      "path": "src/endpoints/seed/index.ts",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/endpoints/seed/index.ts",
+      "gitBlob": "6368847342600aa961565c624b48d77e238dd1d2",
+      "sha256": "feb987286fd76becfcd499f75e09bdc848b288fd135b01c4eaac908470efc08a",
+      "size": 1341
+    },
+    {
+      "path": "src/endpoints/seed/snacks.ts",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/endpoints/seed/snacks.ts",
+      "gitBlob": "49f85f348917867536a53d5cb0acc77b94ef43e9",
+      "sha256": "859f2461bb544445471c1d0a6be6110604678c98e61527b6f3b6ca56d87e1700",
+      "size": 2050
+    },
+    {
+      "path": "src/hooks/use-mobile.ts",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/hooks/use-mobile.ts",
+      "gitBlob": "2b0fe1dfef3b17850bbac040665f514a8ffd0f15",
+      "sha256": "ad0936f84f1df79d3697bfbff9c18f8ad58431c1cbaf2359c6a853b0fcc9f28b",
+      "size": 565
+    },
+    {
+      "path": "src/lib/cart-context.tsx",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/lib/cart-context.tsx",
+      "gitBlob": "d55f2d6d55790b2bc0d9a41251dc28499a6b01c1",
+      "sha256": "349e52dfdcd083e620c9e84aa7f39c610a36e3245373fb57f0fa43ca9bee4aae",
+      "size": 4861
+    },
+    {
+      "path": "src/lib/utils.ts",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/lib/utils.ts",
+      "gitBlob": "bd0c391ddd1088e9067844c48835bf4abcd61783",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+      "size": 166
+    },
+    {
+      "path": "src/migrations/index.ts",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/migrations/index.ts",
+      "gitBlob": "0d0cada0e3618658d4cb1a4d96f262ccb0e767cf",
+      "sha256": "9dcf3ae0f08a3a995318551eb817b43d93019ee3462f863b51c4aed32787aba8",
+      "size": 29
+    },
+    {
+      "path": "src/payload-types.ts",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/payload-types.ts",
+      "gitBlob": "835465f167066db95b4f55469805d94eeb0abc00",
+      "sha256": "8c4b525743a37f43a7a686ee09025e0751150f6b528a2ddcef897206a9e56580",
+      "size": 8618
+    },
+    {
+      "path": "src/payload.config.ts",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/src/payload.config.ts",
+      "gitBlob": "23fd4c839a713b1d08d0623e3074e7e59a4aba58",
+      "sha256": "0fe0d39d6e93ebf4e87275d4609bc2caa382e6557f577ad2927225dbc70a9d24",
+      "size": 2309
+    },
+    {
+      "path": "tsconfig.json",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/tsconfig.json",
+      "gitBlob": "0409a883a9727b0eb6e2d530a0eb3893c5a7643e",
+      "sha256": "9cd171a997d9be6975ea218a295d769294c9bdd91ceb398c160a6d251f294e4a",
+      "size": 761
+    },
+    {
+      "path": "vercel.json",
+      "url": "https://raw.githubusercontent.com/dyad-sh/portal-mini-store-template/05e29f6b18d386d1690b37595800304d679a2274/vercel.json",
+      "gitBlob": "54ba72b7969458acddebeb3291aec34863d68325",
+      "sha256": "083b9af38c94567d5bddd2c9fbdfdd3883ac21d044834b4077a3205a3855ebbb",
+      "size": 89
+    }
+  ],
+  "excludedBinaryAssets": [],
+  "publicationAuthorization": {
+    "date": "2026-10-19",
+    "scope": "Publish this prepared template to brabo1-com and validate desktop creation",
+    "destination": "https://github.com/brabo1-com/portal-mini-store-template"
+  }
+}

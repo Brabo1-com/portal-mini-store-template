@@ -1,0 +1,18 @@
+# Modified by Brabo, 2026-10-19: pin tools and use the configured PostgreSQL service.
+# Supply your own compatible PostgreSQL/Vercel/Neon URL in .env.
+# The upstream MongoDB service did not match this template's PostgreSQL adapter.
+services:
+  payload:
+    image: node:22.16.0-alpine
+    ports:
+      - '127.0.0.1:3000:3000'
+    volumes:
+      - .:/home/node/app
+      - node_modules:/home/node/app/node_modules
+    working_dir: /home/node/app/
+    command: sh -c "corepack enable && corepack prepare pnpm@10.11.0 --activate && pnpm install --frozen-lockfile && pnpm dev"
+    env_file:
+      - .env
+
+volumes:
+  node_modules:
